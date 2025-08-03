@@ -34,7 +34,7 @@ public void LoginErrorValidation() throws IOException {
        ProductCatalogue productCatalogue= lpage.loginApplication("purnenduchaturvedi1@gmail.com","Sachin10@");
      //div[@aria-label='Incorrect email or password.']
        //.ng-tns-c4-6.ng-star-inserted.ng-trigger.ng-trigger-flyInOut.ngx-toastr.toast-error
- AssertJUnit.assertEquals("Incorrect email or password.",lpage.getErrorMessage());
+ AssertJUnit.assertEquals("Incorrect email password.",lpage.getErrorMessage());
 }
  @Test
  public void ProductErrorValidation() throws IOException {
